@@ -42,6 +42,11 @@ Para rodar aplicação direto no Android:
 cordova run android
 ```
 
+### Aplicativo na Google Play
+
+[Regra de três](https://play.google.com/store/apps/details?id=com.williangaspar.regra_de_tres) - Aqui você pode baixar o aplicativo
+
+
 ### O projeto foi desenvolvido com:
 
 * [Apache Cordova](https://cordova.apache.org/) - Framework para o desenvolvimento da aplicação
