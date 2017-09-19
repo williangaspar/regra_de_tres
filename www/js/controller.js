@@ -2,12 +2,12 @@ var intervalValidar = null;
 var intervalSalvarDados = null;
 document.addEventListener('deviceready', function () {
 
-	//tenta calcular o resutado a cada 300ms
+  //tenta calcular o resutado a cada 300ms
   intervalValidar = setInterval(validar, 300);
-  
+
   //salva os dados dos campos a cada 400ms
   intervalSalvarDados = setInterval(salvarDados, 400);
-  
+
   //Liga os eventos
   document.getElementById("link").addEventListener('click', openLink);
   document.getElementById("limpar").addEventListener('click', limpar);
@@ -62,7 +62,7 @@ function calcular(){
 }
 
 function salvarDados(){
-	var list = [];
+  var list = [];
   for (var i = 1; i < 5; i++) {
     list.push(document.getElementById("n"+i).value);
   }
