@@ -1,0 +1,9 @@
+node_modules
+*.so
+*.bin
+*.out
+*.node
+*.log
+platforms
+plugins
+package-lock.json

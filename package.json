@@ -1,0 +1,31 @@
+{
+    "author": "Willian Gaspar",
+    "license": "ISC",
+    "name": "com.williangaspar.regra_de_tres",
+    "version": "1.0.0",
+    "displayName": "Regra de Três",
+    "scripts": {
+        "test": "./node_modules/.bin/jasmine"
+    },
+    "cordova": {
+        "platforms": [
+            "android",
+            "browser"
+        ],
+        "plugins": {
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-browsersync": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-browser": "^4.1.0",
+        "cordova-plugin-browsersync": "^0.1.6",
+        "cordova-plugin-inappbrowser": "^1.7.1",
+        "whitelist": "^1.0.2"
+    },
+    "devDependencies": {
+        "jasmine": "^2.6.0",
+        "jasmine-spec-reporter": "^4.1.1"
+    }
+}
